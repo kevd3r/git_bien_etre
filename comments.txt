@@ -38,4 +38,8 @@ gite-bien-etre/
 │   └── calendar/
 │       └── FullCalendarWrapper.js
 
-Il reste la logique serveur, db, auth à faire
+Il reste la logique serveur, db, auth à faire.
+Commit tout ça.
+Prochaine étape -> créer une branche dev et mettre le main sur cette branche 
+                -> commencer la mise en page 
+                -> gérer le routing
