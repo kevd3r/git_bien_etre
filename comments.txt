@@ -1,0 +1,41 @@
+Jour 1 : 
+Installation du projet 
+début de l'installation des fichiers selon l'architecture du projet
+voilà où on en en est :
+gite-bien-etre/
+│
+├── app/                            # Pages et routes (App Router)
+│   ├── layout.js                   # Layout principal
+│   ├── page.js                     # Page d'accueil (/)
+│   ├── hebergement/
+│   │   └── page.js
+│   ├── soins/
+│   │   └── page.js
+│   ├── reservations/
+│   │   └── page.js
+│   ├── admin/
+│   │   ├── layout.js               # Layout spécifique admin
+│   │   ├── page.js
+│   │   ├── reservations/
+│   │   │   └── page.js
+│   │   └── events/
+│   │       └── page.js
+│   └── api/                        # Routes API (backend)
+│       ├── auth/[...nextauth]/route.js
+│       ├── reservations/route.js
+│       └── events/route.js
+│
+├── components/                     # Composants réutilisables
+│   ├── layout/
+│   │   ├── Header.js
+│   │   └── Footer.js
+│   ├── ui/
+│   │   ├── Button.js
+│   │   └── Input.js
+│   ├── cards/
+│   │   ├── EventCard.js
+│   │   └── ReservationCard.js
+│   └── calendar/
+│       └── FullCalendarWrapper.js
+
+Il reste la logique serveur, db, auth à faire
